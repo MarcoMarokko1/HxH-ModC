@@ -1,0 +1,31 @@
+ANLEITUNG: JAR MIT GITHUB BAUEN LASSEN
+======================================
+
+TEIL 1 - NUR EINMAL PRO REPOSITORY: den Bau-Auftrag (Workflow) anlegen
+-----------------------------------------------------------------------
+GitHub nimmt beim Hochladen den versteckten Ordner ".github" oft nicht mit.
+Darum legst du den Bau-Auftrag einmal von Hand an:
+
+1. Öffne dein Repository auf github.com und klick oben auf den Reiter "Actions".
+2. Klick auf "set up a workflow yourself" (steht meist ziemlich weit oben auf der Seite).
+3. Es öffnet sich ein Editor. Lösche den ganzen Beispieltext darin.
+4. Öffne die Datei "build.yml" (liegt neben dieser ZIP) mit dem Editor, kopiere ALLES
+   und füge es in den GitHub-Editor ein.
+5. Klick oben rechts auf "Commit changes..." und dann im Fenster auf "Commit changes".
+
+Fertig. Ab jetzt baut GitHub bei JEDEM neuen Upload automatisch.
+
+TEIL 2 - Mod aktualisieren (jedes Mal)
+--------------------------------------
+1. ZIP entpacken.
+2. Im SELBEN Repository: "Add file" > "Upload files".
+3. Den Inhalt des entpackten Ordners hineinziehen (src, build.gradle, gradle.properties,
+   settings.gradle, README.md). Gleiche Dateien werden ersetzt.
+4. "Commit changes" klicken.
+5. Reiter "Actions": Der neue Eintrag läuft automatisch. Grüner Haken = fertig.
+6. Auf den Eintrag klicken, ganz unten bei "Artifacts" die Datei "hxhmod-jar" laden und entpacken.
+
+WICHTIG
+- Immer in dasselbe Repository hochladen. Bei einem NEUEN Repository muss Teil 1 wiederholt werden.
+- Roter Haken = Fehler. Auf den Eintrag klicken, die Fehlermeldung kopieren und Claude schicken.
+- Zum Spielen brauchst du zusätzlich die Mod "Player Animator" (Forge 1.20.1) im mods-Ordner.

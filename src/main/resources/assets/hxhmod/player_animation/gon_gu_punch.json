@@ -1,0 +1,137 @@
+{
+ "version": 3,
+ "name": "gon_gu_punch",
+ "author": "hxhmod",
+ "description": "",
+ "emote": {
+  "beginTick": 0,
+  "endTick": 18,
+  "stopTick": 24,
+  "isLoop": false,
+  "returnTick": 0,
+  "nsfw": false,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.35,
+     "yaw": 1.0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": 1.5,
+     "yaw": 0,
+     "roll": 0.45
+    },
+    "leftArm": {
+     "pitch": -1.4,
+     "yaw": 0,
+     "roll": -0.4
+    },
+    "rightLeg": {
+     "pitch": 0.6,
+     "yaw": 0,
+     "roll": 0.3
+    },
+    "leftLeg": {
+     "pitch": -0.7,
+     "yaw": 0,
+     "roll": -0.3
+    }
+   },
+   {
+    "tick": 2,
+    "easing": "EASEOUTCUBIC",
+    "torso": {
+     "pitch": 0.45,
+     "yaw": -1.0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -1.7,
+     "yaw": 0,
+     "roll": 0
+    },
+    "leftArm": {
+     "pitch": 0.8,
+     "yaw": 0,
+     "roll": -0.7
+    },
+    "rightLeg": {
+     "pitch": -0.8,
+     "yaw": 0,
+     "roll": 0
+    },
+    "leftLeg": {
+     "pitch": 0.7,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0.1,
+     "yaw": -0.4,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 3,
+    "easing": "EASEOUTQUAD",
+    "torso": {
+     "pitch": 0.5,
+     "yaw": -1.1,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -1.85,
+     "yaw": 0,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.45,
+     "yaw": -1.05,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -1.8,
+     "yaw": 0,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 18,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.1,
+     "yaw": -0.3,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -0.9,
+     "yaw": 0,
+     "roll": 0.2
+    },
+    "leftArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": -0.3
+    },
+    "rightLeg": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 0
+    },
+    "leftLeg": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 0
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "version": 3,
+ "name": "killua_whirlwind",
+ "author": "hxhmod",
+ "description": "",
+ "emote": {
+  "beginTick": 0,
+  "endTick": 16,
+  "stopTick": 22,
+  "isLoop": false,
+  "returnTick": 0,
+  "nsfw": false,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "LINEAR",
+    "torso": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 1.4
+    },
+    "leftArm": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": -1.4
+    },
+    "rightLeg": {
+     "pitch": -1.2,
+     "yaw": 0,
+     "roll": 0.2
+    },
+    "leftLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": -0.1
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "LINEAR",
+    "torso": {
+     "pitch": 0,
+     "yaw": 6.28,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "LINEAR",
+    "torso": {
+     "pitch": 0,
+     "yaw": 12.56,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 1.4
+    },
+    "leftArm": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": -1.4
+    }
+   },
+   {
+    "tick": 16,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.1,
+     "yaw": 12.56,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -0.3,
+     "yaw": 0,
+     "roll": 0.3
+    },
+    "leftArm": {
+     "pitch": -0.3,
+     "yaw": 0,
+     "roll": -0.3
+    },
+    "rightLeg": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 0
+    },
+    "leftLeg": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 0
+    }
+   }
+  ]
+ }
+}

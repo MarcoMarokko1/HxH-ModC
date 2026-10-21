@@ -1,0 +1,127 @@
+{
+ "version": 3,
+ "name": "xeno_c2",
+ "author": "hxhmod",
+ "description": "",
+ "emote": {
+  "beginTick": 0,
+  "endTick": 11,
+  "stopTick": 16,
+  "isLoop": false,
+  "returnTick": 0,
+  "nsfw": false,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.25,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": 0.2
+    },
+    "leftArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": -0.2
+    },
+    "rightLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": 0.25
+    },
+    "leftLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": -0.25
+    }
+   },
+   {
+    "tick": 1,
+    "easing": "EASEINOUTSINE",
+    "leftArm": {
+     "pitch": -2.0,
+     "yaw": -0.8,
+     "roll": -1.0
+    },
+    "torso": {
+     "pitch": 0.25,
+     "yaw": -0.5,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 3,
+    "easing": "EASEOUTCUBIC",
+    "leftArm": {
+     "pitch": -1.4,
+     "yaw": 1.1,
+     "roll": -0.2
+    },
+    "torso": {
+     "pitch": 0.3,
+     "yaw": 0.9,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0.1,
+     "yaw": 0.3,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 4,
+    "easing": "EASEOUTQUAD",
+    "leftArm": {
+     "pitch": -1.45,
+     "yaw": 1.2,
+     "roll": -0.15
+    }
+   },
+   {
+    "tick": 11,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.25,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": 0.2
+    },
+    "leftArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": -0.2
+    },
+    "rightLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": 0.25
+    },
+    "leftLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": -0.25
+    }
+   }
+  ]
+ }
+}

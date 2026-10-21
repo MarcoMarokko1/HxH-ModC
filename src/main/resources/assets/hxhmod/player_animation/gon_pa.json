@@ -1,0 +1,166 @@
+{
+ "version": 3,
+ "name": "gon_pa",
+ "author": "hxhmod",
+ "description": "",
+ "emote": {
+  "beginTick": 0,
+  "endTick": 22,
+  "stopTick": 28,
+  "isLoop": false,
+  "returnTick": 0,
+  "nsfw": false,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": -0.1,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": 0.6,
+     "yaw": 0,
+     "roll": 0.5
+    },
+    "leftArm": {
+     "pitch": 0.6,
+     "yaw": 0,
+     "roll": -0.5
+    },
+    "rightLeg": {
+     "pitch": 0.3,
+     "yaw": 0,
+     "roll": 0.2
+    },
+    "leftLeg": {
+     "pitch": -0.3,
+     "yaw": 0,
+     "roll": -0.2
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": -0.3,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": 0.9,
+     "yaw": 0,
+     "roll": 0.9
+    },
+    "leftArm": {
+     "pitch": 0.9,
+     "yaw": 0,
+     "roll": -0.9
+    },
+    "head": {
+     "pitch": -0.2,
+     "yaw": 0,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 10,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": -0.35,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": 1.0,
+     "yaw": 0,
+     "roll": 1.0
+    },
+    "leftArm": {
+     "pitch": 1.0,
+     "yaw": 0,
+     "roll": -1.0
+    }
+   },
+   {
+    "tick": 12,
+    "easing": "EASEOUTCUBIC",
+    "torso": {
+     "pitch": 0.35,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -1.6,
+     "yaw": 0,
+     "roll": 0.1
+    },
+    "leftArm": {
+     "pitch": -1.6,
+     "yaw": 0,
+     "roll": -0.1
+    },
+    "rightLeg": {
+     "pitch": -0.6,
+     "yaw": 0,
+     "roll": 0
+    },
+    "leftLeg": {
+     "pitch": 0.5,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0.15,
+     "yaw": 0,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 13,
+    "easing": "EASEOUTQUAD",
+    "rightArm": {
+     "pitch": -1.7,
+     "yaw": 0,
+     "roll": 0.05
+    },
+    "leftArm": {
+     "pitch": -1.7,
+     "yaw": 0,
+     "roll": -0.05
+    }
+   },
+   {
+    "tick": 22,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.15,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -1.0,
+     "yaw": 0,
+     "roll": 0.3
+    },
+    "leftArm": {
+     "pitch": -1.0,
+     "yaw": 0,
+     "roll": -0.3
+    },
+    "rightLeg": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 0
+    },
+    "leftLeg": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 0
+    }
+   }
+  ]
+ }
+}

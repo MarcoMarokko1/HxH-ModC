@@ -1,0 +1,157 @@
+{
+ "version": 3,
+ "name": "pouf_swarm",
+ "author": "hxhmod",
+ "description": "",
+ "emote": {
+  "beginTick": 0,
+  "endTick": 14,
+  "stopTick": 19,
+  "isLoop": false,
+  "returnTick": 0,
+  "nsfw": false,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.05,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -0.3,
+     "yaw": 0,
+     "roll": 0.3
+    },
+    "leftArm": {
+     "pitch": -0.8,
+     "yaw": 0,
+     "roll": -0.4
+    },
+    "rightLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": -0.05
+    },
+    "leftLeg": {
+     "pitch": -0.1,
+     "yaw": 0,
+     "roll": 0.05
+    }
+   },
+   {
+    "tick": 2,
+    "easing": "EASEINOUTSINE",
+    "rightArm": {
+     "pitch": -0.2,
+     "yaw": 0,
+     "roll": 1.6
+    },
+    "leftArm": {
+     "pitch": -0.2,
+     "yaw": 0,
+     "roll": -1.6
+    },
+    "torso": {
+     "pitch": -0.3,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": -0.6,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": 0.3
+    },
+    "leftLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": -0.3
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "LINEAR",
+    "torso": {
+     "pitch": -0.35,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": -0.7,
+     "yaw": 0,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 9,
+    "easing": "EASEOUTCUBIC",
+    "rightArm": {
+     "pitch": -1.5,
+     "yaw": 0,
+     "roll": 0.3
+    },
+    "leftArm": {
+     "pitch": -1.5,
+     "yaw": 0,
+     "roll": -0.3
+    },
+    "torso": {
+     "pitch": 0.5,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0.2,
+     "yaw": 0,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 14,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.05,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -0.3,
+     "yaw": 0,
+     "roll": 0.3
+    },
+    "leftArm": {
+     "pitch": -0.8,
+     "yaw": 0,
+     "roll": -0.4
+    },
+    "rightLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": -0.05
+    },
+    "leftLeg": {
+     "pitch": -0.1,
+     "yaw": 0,
+     "roll": 0.05
+    }
+   }
+  ]
+ }
+}

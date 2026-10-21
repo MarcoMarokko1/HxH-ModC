@@ -1,0 +1,150 @@
+{
+ "version": 3,
+ "name": "xeno_c3",
+ "author": "hxhmod",
+ "description": "",
+ "emote": {
+  "beginTick": 0,
+  "endTick": 14,
+  "stopTick": 19,
+  "isLoop": false,
+  "returnTick": 0,
+  "nsfw": false,
+  "degrees": false,
+  "moves": [
+   {
+    "tick": 0,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.25,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": 0.2
+    },
+    "leftArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": -0.2
+    },
+    "rightLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": 0.25
+    },
+    "leftLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": -0.25
+    }
+   },
+   {
+    "tick": 1,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.5,
+     "yaw": 0.4,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -1.5,
+     "yaw": 0,
+     "roll": 1.3
+    },
+    "leftArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": -1.0
+    }
+   },
+   {
+    "tick": 3,
+    "easing": "LINEAR",
+    "torso": {
+     "pitch": 0.4,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -1.5,
+     "yaw": 0,
+     "roll": 1.3
+    }
+   },
+   {
+    "tick": 6,
+    "easing": "LINEAR",
+    "torso": {
+     "pitch": 0.4,
+     "yaw": -3.14,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 9,
+    "easing": "LINEAR",
+    "torso": {
+     "pitch": 0.4,
+     "yaw": -6.28,
+     "roll": 0
+    }
+   },
+   {
+    "tick": 11,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.3,
+     "yaw": -6.28,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": 0.3
+    }
+   },
+   {
+    "tick": 14,
+    "easing": "EASEINOUTSINE",
+    "torso": {
+     "pitch": 0.25,
+     "yaw": 0,
+     "roll": 0
+    },
+    "head": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": 0
+    },
+    "rightArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": 0.2
+    },
+    "leftArm": {
+     "pitch": -0.5,
+     "yaw": 0,
+     "roll": -0.2
+    },
+    "rightLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": 0.25
+    },
+    "leftLeg": {
+     "pitch": 0.1,
+     "yaw": 0,
+     "roll": -0.25
+    }
+   }
+  ]
+ }
+}
